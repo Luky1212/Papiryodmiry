@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPÍRY OD MÍRY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Modrý pruh nahoře */
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: left;
+        }
+        .header h1 {
+            margin: 0;
+            display: inline-block;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+        }
+        /* Navigační odkazy */
+        nav {
+            margin: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        /* Hlavní obsah */
+        .content {
+            padding: 20px;
+        }
+        .paper-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .paper-item h2 {
+            margin-top: 0;
+            color: #007BFF;
+        }
+        .footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hlavička s modrým pruhem -->
+    <div class="header">
+        <a href="#"><h1>PAPÍRY OD MÍRY</h1></a>
+    </div>
+
+    <!-- Hlavní navigace -->
+    <nav>
+        <a href="#papir-na-miru">Papír na míru</a>
+        <a href="#rolove-papiry">Papír v rolích</a>
+        <a href="#specifikace">Specifikace a nabídka</a>
+    </nav>
+
+    <!-- Hlavní obsah -->
+    <div class="content">
+        <!-- Papír na míru -->
+        <div id="papir-na-miru" class="paper-item">
+            <h2>Papír na míru</h2>
+            <p>Nabízíme různé druhy papíru řezané na míru podle vašich požadavků. Můžete si zvolit formáty od A0 až po A5, nebo si nechat připravit specifické rozměry dle potřeby.</p>
+            <ul>
+                <li>Formát A0 - 841 × 1189 mm</li>
+                <li>Formát A1 - 594 × 841 mm</li>
+                <li>Formát A2 - 420 × 594 mm</li>
+                <li>Formát A3 - 297 × 420 mm</li>
+                <li>Formát A4 - 210 × 297 mm</li>
+                <li>Formát A5 - 148 × 210 mm</li>
+            </ul>
+        </div>
+
+        <!-- Papír v rolích -->
+        <div id="rolove-papiry" class="paper-item">
+            <h2>Papír v rolích</h2>
+            <p>Prodáváme papíry v rolích na metry, vhodné pro tisk, balení a různé další průmyslové účely. Na výběr jsou různé tloušťky a typy papíru.</p>
+            <ul>
+                <li>Role šířky 50 cm - ideální pro kancelářské použití</li>
+                <li>Role šířky 100 cm - vhodné pro velkoformátový tisk</li>
+                <li>Speciální papíry v rolích pro technické výkresy</li>
+                <li>Role balicího papíru - různé barevné varianty</li>
+            </ul>
+        </div>
+
+        <!-- Specifikace a nabídka papírů -->
+        <div id="specifikace" class="paper-item">
+            <h2>Specifikace a nabídka</h2>
+            <p>Nabízíme širokou škálu papírů, které splní vaše požadavky. Vyberte si z naší nabídky:</p>
+            <ul>
+                <li>Kancelářský papír - 80 g/m², A4 a A3</li>
+                <li>Křídový papír - 150 g/m², vhodný pro letáky a brožury</li>
+                <li>Recirkulovaný papír - ekologické řešení pro tisk</li>
+                <li>Technický papír - vyšší gramáž pro výkresy</li>
+                <li>Balicí papír - vícebarevný a recyklovatelný</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Odkaz na stránku About Us -->
+    <div class="footer">
+        <p>Chcete se dozvědět více o naší firmě? Navštivte stránku <a href="#">About Us</a>.</p>
+    </div>
+
+</body>
+</html>
