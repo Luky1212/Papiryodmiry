@@ -9,88 +9,91 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
-        /* Modrý pruh nahoře */
         header {
-            background-color: #007bff;
-            padding: 15px;
+            background-color: #0044cc;
             color: white;
+            padding: 10px 0;
+            text-align: left;
         }
-        /* Název firmy s odkazem */
+        header h1 {
+            margin: 0;
+            padding-left: 20px;
+            display: inline;
+        }
         header a {
-            text-decoration: none;
             color: white;
-            font-size: 24px;
-            font-weight: bold;
-        }
-        /* Navigační menu */
-        nav {
-            margin-top: 20px;
-        }
-        nav a {
-            margin-right: 15px;
             text-decoration: none;
-            color: #007bff;
-            font-size: 18px;
+            margin-left: 20px;
+            font-size: 1.2em;
         }
-        /* Kontejner pro nabídku papíru */
         .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .paper-section {
+            background: white;
+            margin: 20px 0;
             padding: 20px;
+            border: 1px solid #ddd;
+            display: flex;
+            align-items: center;
         }
-        .paper-item {
-            margin-bottom: 20px;
+        .paper-section img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
         }
-        h2 {
-            color: #007bff;
+        .paper-section h2 {
+            margin-top: 0;
         }
-        /* Odkaz na "About Us" */
         footer {
-            padding: 20px;
-            background-color: #f1f1f1;
             text-align: center;
-        }
-        footer a {
-            text-decoration: none;
-            color: #007bff;
-            font-size: 18px;
+            padding: 20px;
+            background-color: #0044cc;
+            color: white;
         }
     </style>
 </head>
 <body>
-    <!-- Modrý pruh nahoře s názvem firmy -->
     <header>
-        <a href="index.html">PAPÍRY OD MÍRY</a>
+        <h1>PAPÍRY OD MÍRY</h1>
+        <a href="#">Home</a>
+        <a href="#about">About Us</a>
     </header>
-
-    <!-- Hlavní obsah stránky -->
+    
     <div class="container">
-        <h1>Naše nabídka papíru</h1>
-        
-        <!-- Nabídka papíru -->
-        <div class="paper-item">
-            <h2>Papír na míru</h2>
-            <p>Nabízíme kvalitní papír, který si můžete nechat nařezat na požadovaný formát.</p>
+        <!-- První sekce: Papír na míru -->
+        <div class="paper-section">
+            <img src="https://example.com/papir-na-miru.jpg" alt="Papír na míru">
+            <div>
+                <h2>Papír na míru</h2>
+                <p>Nabízíme širokou škálu papírů, které jsou dostupné na míru dle přání zákazníka. Perfektní pro tisk, kancelářské použití či kreativní projekty.</p>
+            </div>
         </div>
 
-        <div class="paper-item">
-            <h2>Papír v rolích</h2>
-            <p>Prodáváme papír v rolích na metry. Vhodný pro tiskárny a průmyslové použití.</p>
+        <!-- Druhá sekce: Papír v rolích -->
+        <div class="paper-section">
+            <img src="https://example.com/papir-v-rolich.jpg" alt="Papír v rolích">
+            <div>
+                <h2>Papír v rolích</h2>
+                <p>Pro specifické potřeby nabízíme papír v rolích, ideální pro průmyslové využití nebo tisk plakátů. Délku a gramáž je možné přizpůsobit na míru.</p>
+            </div>
         </div>
 
-        <div class="paper-item">
-            <h2>Papír pro kancelář</h2>
-            <p>Kancelářský papír ve formátech A4, A3, A5 a dalších. Vhodné pro tisk i kopírování.</p>
-        </div>
-
-        <div class="paper-item">
-            <h2>Speciální papír</h2>
-            <p>Papír se speciálními vlastnostmi, jako je odolnost proti vodě, vysoká gramáž a další.</p>
+        <!-- Třetí sekce: Kancelářský papír -->
+        <div class="paper-section">
+            <img src="https://example.com/kancelarsky-papir.jpg" alt="Kancelářský papír">
+            <div>
+                <h2>Kancelářský papír</h2>
+                <p>Klasický papír pro tisk a kopírování. Dostupný v baleních A4, A3 a dalších formátech. Vhodný do všech typů tiskáren a kopírek.</p>
+            </div>
         </div>
     </div>
 
-    <!-- Odkaz na stránku "About Us" -->
     <footer>
-        <a href="#about-us">About Us</a>
+        <p>&copy; 2024 PAPÍRY OD MÍRY</p>
     </footer>
 </body>
 </html>
